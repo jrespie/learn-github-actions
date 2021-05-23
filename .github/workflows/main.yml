@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: jrespie/learn-github-actions@v1.1
+        uses: jrespie/learn-github-actions@v1
         with:
           who-to-greet: 'James'
       # Use the output from the `hello` step
